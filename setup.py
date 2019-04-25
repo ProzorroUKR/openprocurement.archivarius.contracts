@@ -12,14 +12,12 @@ requires = [
 ]
 api_requires = [
     'openprocurement.api',
-    'openprocurement.contracting.api',
 ]
 test_requires = requires + api_requires + [
     'webtest',
     'python-coveralls',
     'nose',
     'mock',
-    'openprocurement.tender.belowthreshold',
 ]
 
 entry_points = {
